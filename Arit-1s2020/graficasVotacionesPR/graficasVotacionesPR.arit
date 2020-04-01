@@ -37,6 +37,10 @@ fillVector = function(list){
 	if(existe == false)
         {
 	     Votos[contador] = list(list(i[[2]],i[[7]],i[[6]]*i[[7]]/100))
+	     #Votos[[contador]] = list(i[[2]],i[[7]],i[[6]]*i[[7]]/100)
+	     
+	     #OJO En caso no les funcione con el primer tipo de asignacion, el segundo les podria funcionar.
+	     
 	     contador = contador + 1;
 	}
 
